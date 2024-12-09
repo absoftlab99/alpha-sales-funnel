@@ -13,7 +13,7 @@ const BeforeFaq = () => {
                 <h2 className='text-center text-3xl'>যে কোন তথ্যের জন্য প্রয়োজনে কল করুন- <Link href='tel:+8801798930232'>+8801798930232</Link></h2>
             </div>
             <div className="text-center my-5">
-                <button type="button" className='custom-btn1 btn px-10'>অর্ডার করতে ক্লিক করুন <TbShoppingBag></TbShoppingBag></button>
+                <button type="button" className='custom-btn1 btn px-10 rounded-se-none rounded-bl-none rounded-2xl btn-lg'>অর্ডার করতে ক্লিক করুন <TbShoppingBag></TbShoppingBag></button>
             </div>
         </div>
     );
