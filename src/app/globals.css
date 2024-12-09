@@ -17,7 +17,7 @@
   background: linear-gradient(22deg, rgba(230,96,13,1) 27%, rgba(253,95,91,1) 69%);
   color: white;
 }
-.custom-btn2{
+.custom-btn1:hover{
   background: rgb(5,185,227);
   background: linear-gradient(22deg, rgba(5,185,227,1) 27%, rgba(104,113,254,1) 69%);
   color: white;

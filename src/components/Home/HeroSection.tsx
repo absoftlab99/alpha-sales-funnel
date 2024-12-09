@@ -1,4 +1,5 @@
 import React from 'react';
+import YoutubeVideo from './YoutubeVideo';
 
 const HeroSection = () => {
     return (
@@ -7,6 +8,7 @@ const HeroSection = () => {
                 <h1 className='text-white p-4 text-2xl leading-[1.5] md:text-3xl md:leading-[1.5] lg:text-5xl lg:leading-[2] font-semibold text-center'>মোবাইল কম্পিউটারের স্কীনের <span className='bg-primary px-3 rounded-md text-warning'>ক্ষতিকর ব্লু-লাইট</span> ধীরে ধীরে চোখের <span className='bg-primary px-3 rounded-md text-warning'>রেটিনা ড্যামেজ</span> সহ বিভিন্ন ভাবে চোখের ক্ষতি করেই যাচ্ছে !</h1>
             </div>
             <h3 className='text-white text-lg md:text-2xl lg:text-4xl text-center my-10'>দোকানে যে সকল <span className='text-warning'>Anti-Reflection</span> লেন্স পাওয়া যায়, তা থেকে আমাদের <span className='text-warning'>Blue light লেন্সটি</span> অরজিনাল অনেক বেশি কার্যকর।</h3>
+            <YoutubeVideo></YoutubeVideo>
         </div>
     );
 };
