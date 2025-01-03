@@ -16,7 +16,6 @@ const ShopForm = () => {
     return (
         <form
             className="w-full"
-            action="https://docs.google.com/forms/d/e/<form_id>/formResponse" // Replace <form_id> with your Google Form ID
             method="POST"
             target="_self"
         >
@@ -28,7 +27,6 @@ const ShopForm = () => {
                         <div className="my-2">
                             <input
                                 type="text"
-                                name="entry.1234567890" // Replace with Google Form field ID
                                 placeholder="আপনার নাম লিখুন*"
                                 className="input input-bordered bg-white w-full"
                                 required
@@ -37,7 +35,6 @@ const ShopForm = () => {
                         <div className="my-2">
                             <input
                                 type="text"
-                                name="entry.0987654321" // Replace with Google Form field ID
                                 placeholder="আপনার মোবাইল নম্বর লিখুন*"
                                 className="input input-bordered bg-white w-full"
                                 required
@@ -46,7 +43,6 @@ const ShopForm = () => {
                         <div className="my-2">
                             <input
                                 type="text"
-                                name="entry.5678901234" // Replace with Google Form field ID
                                 placeholder="আপনার সম্পূর্ণ ঠিকানা লিখুন*"
                                 className="input input-bordered bg-white w-full"
                                 required
@@ -98,8 +94,7 @@ const ShopForm = () => {
                                     <label className="label cursor-pointer gap-4">
                                         <input
                                             type="radio"
-                                            name="entry.3456789012" // Replace with Google Form field ID for radio group
-                                            value={60} // Replace with the exact value Google Form expects
+                                            value={60}
                                             className="radio"
                                             onChange={handleRadio}
                                             defaultChecked
@@ -111,8 +106,7 @@ const ShopForm = () => {
                                     <label className="label cursor-pointer gap-4">
                                         <input
                                             type="radio"
-                                            name="entry.3456789012" // Same ID as above for the radio group
-                                            value={130} // Replace with the exact value Google Form expects
+                                            value={130}
                                             className="radio"
                                             onChange={handleRadio}
                                         />
